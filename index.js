@@ -1,7 +1,53 @@
 // TODO: Include packages needed for this application
 
 // TODO: Create an array of questions for user input
-const questions = [];
+const questions = [
+    {
+        type: "input",
+        message: "What is your Github username?",
+        name: "username"
+    },{
+        type: "input",
+        message: "Provide the url to your Github profile.",
+        name: "profile"
+    },{
+        type: "input",
+        message: "What is your email address?",
+        name: "email"
+    },{
+        type: "input",
+        message: "What is the title of your repository?",
+        name: "title"
+    },{
+        type: "input",
+        message: "Describe your repository.",
+        name: "description"
+    },{
+        type: "input",
+        message: "Provide relevant installation instructions.",
+        name: "installing"
+    },{
+        type: "input",
+        message: "Provide relevant usage information.",
+        name: "usage"
+    },{
+        type: "input",
+        message: "Provide the contribution guidelines.",
+        name: "guidelines"
+    },{
+        type: "list",
+        message: "Select one license for your application.",
+        name: "license",
+        choices: [
+            "afl-3.0",
+            "mit",
+            "mpl-2.0",
+            "osl-3.0",
+            "ms-pl",
+            "none"
+        ],
+    }
+];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
