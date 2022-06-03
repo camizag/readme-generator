@@ -36,7 +36,7 @@ function generateMarkdown(data) {
 
   ### Questions
   [Back to Table of Contents](#questions)
-  If you have any questions about anything regarding this application, feel free to contact me via email through [here](${data.email}. Or visit the repository directly on [Github](${data.linkRepo}).
+  If you have any questions about anything regarding this application, feel free to contact me via email through [here](${data.email}). Or visit the repository directly on [Github](${data.linkRepo}).
   <br>
   You can visit my Github profile at [${data.username}](${data.linkProfile}).
 `;

@@ -15,7 +15,7 @@ const questions = [
         name: "linkProfile"
     },{
         type: "input",
-        message: "Provide the url to tthe app's repository.",
+        message: "Provide the url to the app's repository.",
         name: "linkRepo"
     },{
         type: "input",
