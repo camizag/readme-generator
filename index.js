@@ -1,7 +1,7 @@
-//Variables
-var generateMarkdown = require("./utils/generateMarkdown");
-var fs = require("fs");
-var inquirer = require("inquirer");
+//Packages for the app
+const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require("fs");
+const inquirer = require("inquirer");
 
 //README prompts
 const questions = [
@@ -12,7 +12,11 @@ const questions = [
     },{
         type: "input",
         message: "Provide the url to your Github profile.",
-        name: "profile"
+        name: "linkProfile"
+    },{
+        type: "input",
+        message: "Provide the url to tthe app's repository.",
+        name: "linkRepo"
     },{
         type: "input",
         message: "What is your email address?",
@@ -54,7 +58,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
-inquirer.prompt(questions).then(Response)
 
 // TODO: Create a function to initialize app
 function init() {}
