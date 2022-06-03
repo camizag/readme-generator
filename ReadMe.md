@@ -35,6 +35,6 @@
 
   ### Questions
   [Back to Table of Contents](#questions)
-  If you have any questions about anything regarding this application, feel free to contact me via email through [here](camilazags@gmail.com. Or visit the repository directly on [Github](https://github.com/camizag/readme-generator).
+  If you have any questions about anything regarding this application, feel free to contact me via email through [here](camilazags@gmail.com). Or visit the repository directly on [Github](https://github.com/camizag/readme-generator).
   <br>
   You can visit my Github profile at [camizag](https://github.com/camizag).
